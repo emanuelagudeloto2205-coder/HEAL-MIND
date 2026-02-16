@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #4d4747b7;
+}
+
+header {
+    background-color: #000000ad;
+
+    padding: 15px;
+  
+}
+
+nav a {
+    color: rgb(255, 254, 254);
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    background-color: rgb(66, 64, 64);
+    margin: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #252525;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+.Registro {
+    color: rgb(211, 195, 195);
+}
