@@ -23,7 +23,7 @@ body {
     height: auto;
     margin: auto 0;
     overflow: hidden;
-
+ border-radius: 10px;
     
 }
 
@@ -32,7 +32,7 @@ body {
     padding: 0;
     width: 400%;
     animation: slide 20s infinite alternate ease-in-out;
-
+ 
 }
 
 .slider-box li {
@@ -83,7 +83,7 @@ body {
     padding: 30px;
    
     font-weight: bold;
-    margin-left:1px;
+    margin-left: 150px;
    
     
 }
@@ -169,6 +169,7 @@ body {
     text-decoration: none;
     margin-left: 50px;
     gap: 50px;
+    
    }
 
    
