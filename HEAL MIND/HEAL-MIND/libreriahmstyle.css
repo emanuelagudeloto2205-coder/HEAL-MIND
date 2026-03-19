@@ -16,6 +16,8 @@ img {
     max-width: 100%;
 }
 
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -88,19 +90,13 @@ img {
     margin-right: 25px;
 }
 
-span{
-    color: #9bce21;
-    font-size: 17px;
-    font-weight: 600;
-    display: block;
-    margin-bottom: 25px;
-}
+
 
 .header-txt h1{
     font-size: 70px;
     text-transform: capitalize;
     line-height: 1;
-    color: #111419;
+    color: #9bce21;
     margin-bottom: 35px;
 }
 
@@ -133,11 +129,7 @@ span{
     height: 550px;
 }
 
-.ofertas {
-    padding:100px 0;
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .ofert-1{
     flex-basis: calc(33.3% - 20px);
@@ -182,7 +174,7 @@ span{
 
 h2 {
     font-size: 40px;
-    color: #111419;
+    color: #9bce21;
 }
 
 .box-container{
@@ -221,3 +213,6 @@ h2 {
     margin-bottom: 25px;
     color:#515557;
 }
+
+
+
