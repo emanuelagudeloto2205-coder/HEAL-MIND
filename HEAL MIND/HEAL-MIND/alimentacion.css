@@ -1,0 +1,18 @@
+body {
+    background-color: #ffffff;
+}
+
+.Contenido {
+    text-decoration: none;
+    color: #111419;
+    font-size: 20px;
+  padding: 5px;
+}
+
+h1{
+      font-size: 70px;
+    text-transform: capitalize;
+    line-height: 1;
+    color: #9bce21;
+    margin-bottom: 35px;
+}
