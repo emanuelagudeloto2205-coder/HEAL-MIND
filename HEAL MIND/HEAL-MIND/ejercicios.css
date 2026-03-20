@@ -1,14 +1,14 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
- background: linear-gradient(90deg, #ffffff, #ffffff);
+ background: linear-gradient(90deg, #747474, #ffffff);
   color: #39e817;
 }
 
 header {
   text-align: center;
   padding: 40px 20px;
-  background: linear-gradient(90deg, #ffffff, #ffffff);
+  background: linear-gradient(90deg, #747373, #ffffff);
   border-bottom: 2px solid rgb(38, 255, 0);
 }
 
@@ -27,7 +27,7 @@ nav {
   display: flex;
   justify-content: center;
   gap: 25px;
- background: linear-gradient(90deg, #ffffff, #ffffff);
+ background: linear-gradient(90deg, #727070, #ffffff);
   padding: 15px;
 }
 
