@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+ background: linear-gradient(90deg, #747474, #ffffff);
+  color: #39e817;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(90deg, #747373, #ffffff);
+  border-bottom: 2px solid rgb(38, 255, 0);
+}
+
+header h1 {
+  color: rgb(110, 248, 18);
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+header p {
+  color: #00c414;
+  margin-top: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+ background: linear-gradient(90deg, #7c7474, #ffffff);
+  padding: 15px;
+}
+
+nav a {
+  color: rgb(54, 218, 40);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: rgb(47, 255, 0);
+  transform: scale(1.1);
+}
+
+section {
+  padding: 30px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  color: rgb(39, 227, 5);
+  margin-bottom: 15px;
+}
+
+.card {
+  background: #9a9898;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #57e818;
+  transition: 0.2s;
+  box-shadow: 0 0 10px rgba(29, 185, 18, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(44, 241, 17, 0.3);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #9c9999;
+  border-top: 2px solid rgb(21, 223, 31);
+  margin-top: 20px;
+}
