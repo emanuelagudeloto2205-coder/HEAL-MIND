@@ -1,25 +1,25 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(180deg, #0d0d0d, #1a1a1a);
-  color: #ffffff;
+ background: linear-gradient(90deg, #ffffff, #ffffff);
+  color: #39e817;
 }
 
 header {
   text-align: center;
   padding: 40px 20px;
-  background: linear-gradient(90deg, #111, #1a1a1a);
-  border-bottom: 2px solid red;
+  background: linear-gradient(90deg, #ffffff, #ffffff);
+  border-bottom: 2px solid rgb(38, 255, 0);
 }
 
 header h1 {
-  color: red;
+  color: rgb(102, 255, 0);
   margin: 0;
   font-size: 2.2rem;
 }
 
 header p {
-  color: #aaa;
+  color: #00c414;
   margin-top: 10px;
 }
 
@@ -27,19 +27,19 @@ nav {
   display: flex;
   justify-content: center;
   gap: 25px;
-  background: #111;
+ background: linear-gradient(90deg, #ffffff, #ffffff);
   padding: 15px;
 }
 
 nav a {
-  color: white;
+  color: rgb(38, 243, 15);
   text-decoration: none;
   font-weight: 600;
   transition: 0.3s;
 }
 
 nav a:hover {
-  color: red;
+  color: rgb(47, 255, 0);
   transform: scale(1.1);
 }
 
@@ -50,7 +50,7 @@ section {
 }
 
 h2 {
-  color: red;
+  color: rgb(38, 255, 0);
   margin-bottom: 15px;
 }
 
