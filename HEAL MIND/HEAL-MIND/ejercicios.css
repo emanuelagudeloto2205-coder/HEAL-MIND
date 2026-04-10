@@ -1,21 +1,21 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
- background: linear-gradient(90deg, #747474, #ffffff);
+ background: linear-gradient(90deg, #000000, #c2bcbc);
   color: #39e817;
 }
 
 header {
   text-align: center;
   padding: 40px 20px;
-  background: linear-gradient(90deg, #747373, #ffffff);
+  background: linear-gradient(90deg, #000000, #524e4e);
   border-bottom: 2px solid rgb(38, 255, 0);
 }
 
 header h1 {
-  color: rgb(110, 248, 18);
+  color: rgb(108, 219, 35);
   margin: 0;
-  font-size: 2.2rem;
+
 }
 
 header p {
@@ -27,19 +27,19 @@ nav {
   display: flex;
   justify-content: center;
   gap: 25px;
- background: linear-gradient(90deg, #7c7474, #ffffff);
+ background: linear-gradient(90deg, #000000, #b2afaf);
   padding: 15px;
 }
 
 nav a {
-  color: rgb(54, 218, 40);
+  color: rgb(41, 251, 22);
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 1000;
   transition: 0.3s;
 }
 
 nav a:hover {
-  color: rgb(47, 255, 0);
+  color: rgb(38, 255, 0);
   transform: scale(1.1);
 }
 
@@ -55,23 +55,25 @@ h2 {
 }
 
 .card {
-  background: #9a9898;
+  background: #000000;
   padding: 20px;
   border-radius: 15px;
-  border: 1px solid #57e818;
+  border: 1px solid #64d889;
+  background: linear-gradient(150deg, #000000, #2cac05);
   transition: 0.2s;
-  box-shadow: 0 0 10px rgba(29, 185, 18, 0.1);
+margin-top: 10px;
+
 }
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 0 20px rgba(44, 241, 17, 0.3);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 footer {
   text-align: center;
   padding: 20px;
-  background: #9c9999;
+  background: #000000;
   border-top: 2px solid rgb(21, 223, 31);
   margin-top: 20px;
 }
